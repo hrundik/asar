@@ -7,7 +7,7 @@ mkdirp = require 'mkdirp'
 Filesystem = require './filesystem'
 disk = require './disk'
 crawlFilesystem = require './crawlfs'
-createSnapshot = require './snapshot'
+createSnapshot = Function.prototype
 
 # Return whether or not a directory should be excluded from packing due to
 # "--unpack-dir" option
